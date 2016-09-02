@@ -5,5 +5,5 @@ install docker-compose on linux with fish shell
 cd /tmp
 curl -L https://github.com/docker/compose/releases/download/1.8.0/docker-compose-(uname -s)-(uname -m) > docker-compose
 chmod +x docker-compose
-sudo mv -v docker-compose /usr/local/bin/
+sudo mv -f docker-compose /usr/local/bin/
 ```
